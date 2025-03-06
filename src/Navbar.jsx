@@ -11,9 +11,12 @@ function Navbar() {
         <Link to="/profile" className="hover:underline">
           Profile
         </Link>
-        <Link to="/todo" className="hover:underline">
+        <a
+          href="https://github.com/JustinHadinataCS/JustinHadinata-ToDoList"
+          className="hover:underline"
+        >
           To-Do
-        </Link>
+        </a>
       </div>
     </nav>
   );
